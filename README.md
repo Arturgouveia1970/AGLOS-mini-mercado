@@ -65,9 +65,6 @@ Feel free to check the [issues page](https://github.com/Arturgouveia1970/AGLOS-m
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
--  We acknowledge with appreciation the original design provided by Murat Korkmaz on Behance.
-- Inspiration: Microverse
 
 ## 📝 License
 
