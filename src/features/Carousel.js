@@ -7,7 +7,7 @@ import styles from './Carousel.module.css';
 export default function MarketCarousel() {
   return (
     <div className={`${styles.tamanho} container`}>
-      <MDBCarousel showControls fade className="carousel-dark">
+      <MDBCarousel showControls fade className="carousel-dark bg-success">
         <MDBCarouselItem
           className="w-100 d-block img-fluid img-thumbnail"
           itemId={1}

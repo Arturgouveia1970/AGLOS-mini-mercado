@@ -2,10 +2,11 @@
     min-width: 100vh;
     display: flex;
     flex-direction: column;
-    
-    
-    margin: 5px;
     /* padding-bottom: 60px; */
+}
+
+.texto {
+ margin: 10px;   
 }
 
 

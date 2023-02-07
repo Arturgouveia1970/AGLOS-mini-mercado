@@ -6,7 +6,7 @@ const Sobre = () => (
   <>
     <NavBar />
     <h2 style={{ color: 'green' }}>
-      aqui vamos apresentaremos uma breve historia sobre a empresa
+      aqui apresentaremos uma breve historia sobre a empresa
     </h2>
     <p>
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem

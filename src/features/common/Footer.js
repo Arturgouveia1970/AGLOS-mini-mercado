@@ -8,20 +8,20 @@ import twitter from '../../assets/images/twitter1.svg';
 import whatsapp from '../../assets/images/whatsapp.svg';
 
 const Footer = () => (
-  <div className="d-flex flex-column min-vh-100">
+  <div className="flex-column min-vh-100">
     <footer className={`${styles.footer} text-center text-lg-start mt-auto`}>
       <div className="container d-flex justify-content-center">
         <button type="button" className="btn btn-lg btn-floating mx-2">
           <img src={facebook} alt="facebook-icon" className="facebook" />
         </button>
         <button type="button" className="btn btn-lg btn-floating mx-2">
-          <a href="https://agls_mini_mercado"><img src={instagram} alt="instagram-icon" className="instagram" /></a>
+          <a href="https://graph.instagram.com/v12.0/agls_mini_mercado"><img src={instagram} alt="instagram-icon" className="instagram" /></a>
         </button>
         <button type="button" className="btn btn-lg btn-floating mx-2">
           <img src={twitter} alt="twitter-icon" className="twitter" />
         </button>
         <button type="button" className="btn btn-lg btn-floating mx-2">
-          <img src={whatsapp} alt="whatsapp-icon" className="whatsapp" />
+          <a href="https://wa.me/00244923362632"><img src={whatsapp} alt="whatsapp-icon" className="whatsapp" /></a>
         </button>
       </div>
       <div className="text-center text-white p-0 d-flex flex-column" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>

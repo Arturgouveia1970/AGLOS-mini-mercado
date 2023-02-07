@@ -1,3 +1,5 @@
 .tamanho {
- width: 100vh;
+ max-width: 100%;
+ height: auto;
+ background-size: cover;
 }

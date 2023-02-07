@@ -1,10 +1,12 @@
 import React from 'react';
 import NavBar from './common/NavBar';
 import Footer from './common/Footer';
+import ProductCarousel from './ProductCarousel';
 
 const Product = () => (
   <>
     <NavBar />
+    <ProductCarousel />
     <h2 style={{ color: 'green' }}>
       Aqui apresentaremos fotos e informações sobre os nossos produtos
     </h2>
