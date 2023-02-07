@@ -7,6 +7,7 @@ import Local from '../features/Local';
 import './App.css';
 
 function App() {
+// eslint-disable-next-line
   return (
     (
       <>

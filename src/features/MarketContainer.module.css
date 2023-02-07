@@ -2,7 +2,8 @@
     min-width: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 5px;
+    
+    
     margin: 5px;
     /* padding-bottom: 60px; */
 }
