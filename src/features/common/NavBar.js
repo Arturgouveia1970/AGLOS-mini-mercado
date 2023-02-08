@@ -4,7 +4,6 @@ import logo from '../../assets/images/logo1.jpg';
 import styles from './NavBar.module.css';
 
 const NavBar = () => (
-  // <footer className={`${styles.footer} text-center text-lg-start d-flex flex-column`}></footer>
   <nav className={`${styles.header} navbar navbar-expand-lg d-flex flex-column`}>
     <div className="container-fluid">
       <div className={`${styles.logo} navbar-brand`}><img src={logo} alt="logo" className={`${styles.logo}`} /></div>

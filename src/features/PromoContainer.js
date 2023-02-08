@@ -1,12 +1,10 @@
 import React from 'react';
 import MarketCarousel from './Carousel';
-// import MarketContainer from './MarketContainer';
 import styles from './MarketContainer.module.css';
 
 const PromoContainer = () => (
   <>
     <MarketCarousel />
-    {/* <nav className={`${styles.header} navbar navbar-expand-lg d-flex flex-column`}></nav> */}
     <p className={`${styles.texto}`}>
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem
       accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
