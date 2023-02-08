@@ -1,5 +1,5 @@
 .productstext {
-  display: flex;  
+  display: flex;
   flex-direction: row;
 }
 
@@ -14,7 +14,7 @@
 .padariaText {
   margin-left: 40px;
 }
+
 .especiaisText {
   margin-left: 40px;
 }
-
