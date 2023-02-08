@@ -1,9 +1,11 @@
 .body {
-  min-width: 100vh;
   display: flex;
-  flex-direction: column;
-
-  /* padding-bottom: 60px; */
+  flex-flow: column;
+  /* overflow: hidden; */
+  align-items: stretch;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 .texto {

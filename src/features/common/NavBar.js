@@ -7,7 +7,7 @@ const NavBar = () => (
   // <footer className={`${styles.footer} text-center text-lg-start d-flex flex-column`}></footer>
   <nav className={`${styles.header} navbar navbar-expand-lg d-flex flex-column`}>
     <div className="container-fluid">
-      <div className="navbar-brand"><img src={logo} alt="logo" /></div>
+      <div className={`${styles.logo} navbar-brand`}><img src={logo} alt="logo" className={`${styles.logo}`} /></div>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon" />
       </button>

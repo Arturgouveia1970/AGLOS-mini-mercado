@@ -2,30 +2,36 @@ import React from 'react';
 import NavBar from './common/NavBar';
 import Footer from './common/Footer';
 import ProductCarousel from './ProductCarousel';
+import styles from './products.module.css';
 
 const Product = () => (
   <>
     <NavBar />
     <ProductCarousel />
-    <h2 style={{ color: 'green' }}>
-      Aqui apresentaremos fotos e informações sobre os nossos produtos
-    </h2>
-    <p>
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-      quae ab illo inventore veritatis et quasi architecto beatae vitae
-      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-      sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-      dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
-      quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-      adipisci velit, sed quia non numquam eius modi tempora incidunt
-      ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim
-      ad minima veniam, quis nostrum exercitationem ullam corporis
-      suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-      Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-      esse quam nihil molestiae consequatur, vel illum qui dolorem
-      eum fugiat quo voluptas nulla pariatur?
-    </p>
+    <div className={`${styles.produtsText}`}>
+      <div className={`${styles.carnesText}`}>
+        <h2>Carnes e Peixes</h2>
+        <p>Nós temos uma variedade special de cortes de carne, peixe e frango</p>
+      </div>
+      <div className={`${styles.vegText}`}>
+        <h2>Frutos e Vegetais</h2>
+        <p>
+          Especializamo-nos em frutas sasonais de fazendas locais.
+          Todos os produtos são frescos e cuidadosamente escolhodos.
+        </p>
+      </div>
+      <div className={`${styles.padariaText}`}>
+        <h2>Padaria</h2>
+        <p>Venha experimentar os nossos produtos frescos e entregues diariamente</p>
+      </div>
+      <div className={`${styles.especiaisText}`}>
+        <h2>Higiéne</h2>
+        <p>
+          Temos uma variedade estabelecidos no mercado Angolano. Todos os produtos
+          higiéne pessoal e de casa num só lugar.
+        </p>
+      </div>
+    </div>
     <Footer />
   </>
 );

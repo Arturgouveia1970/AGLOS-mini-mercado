@@ -9,34 +9,34 @@ import styles from './ProductCarousel.module.css';
 
 export default function ProductCarousel() {
   return (
-    <div className={`${styles.medidas} container`}>
-      <MDBCarousel showControls fade className="carousel-dark bg-success">
+    <div className={`${styles.medidas} container d-block img-thumbnail`}>
+      <MDBCarousel slide dealy={4000} className="carousel-dark bg-success">
         <MDBCarouselItem
-          className="w-100 d-block img-fluid img-thumbnail"
+          className={`${styles.imgCnt} w-100 d-block img-fluid img-thumbnail`}
           itemId={1}
           src={foto1}
           alt="..."
         />
         <MDBCarouselItem
-          className="w-100 d-block img-fluid img-thumbnail"
+          className={`${styles.imgCnt} w-100 d-block img-fluid img-thumbnail`}
           itemId={2}
           src={foto2}
           alt="..."
         />
         <MDBCarouselItem
-          className="w-100 d-block img-fluid img-thumbnail"
+          className={`${styles.imgCnt} w-100 d-block img-fluid img-thumbnail`}
           itemId={3}
           src={foto3}
           alt="..."
         />
         <MDBCarouselItem
-          className="w-100 d-block img-fluid img-thumbnail"
+          className={`${styles.imgCnt} w-20 d-block img-fluid img-thumbnail`}
           itemId={4}
           src={foto4}
           alt="..."
         />
         <MDBCarouselItem
-          className="w-100 d-block img-fluid img-thumbnail"
+          className={`${styles.imgCnt} w-20 d-block img-fluid img-thumbnail`}
           itemId={5}
           src={foto6}
           alt="..."

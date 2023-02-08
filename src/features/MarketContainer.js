@@ -5,7 +5,7 @@ import Footer from './common/Footer';
 import styles from './MarketContainer.module.css';
 
 const MarketContainer = () => (
-  <div className={styles.body}>
+  <div className={`${styles.body}`}>
     <NavBar />
     <PromoContainer />
     <Footer />

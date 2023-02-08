@@ -1,0 +1,20 @@
+.productstext {
+  display: flex;  
+  flex-direction: row;
+}
+
+.carnesText {
+  margin-left: 40px;
+}
+
+.vegText {
+  margin-left: 40px;
+}
+
+.padariaText {
+  margin-left: 40px;
+}
+.especiaisText {
+  margin-left: 40px;
+}
+
