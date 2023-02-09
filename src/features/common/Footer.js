@@ -20,7 +20,7 @@ const Footer = () => (
           <img src={twitter} alt="twitter-icon" className="twitter" />
         </button>
         <button type="button" className="btn btn-lg btn-floating mx-2">
-          <a href="https://wa.me/00244923362632"><img src={whatsapp} alt="whatsapp-icon" className="whatsapp" /></a>
+          <a href="https://wa.me/+244923362632"><img src={whatsapp} alt="whatsapp-icon" className="whatsapp" /></a>
         </button>
       </div>
       <div className="text-center text-white p-0 d-flex flex-column" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
