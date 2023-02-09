@@ -1,9 +1,8 @@
 .image {
-    object-fit: cover;
-    min-width: 100%;
-    max-width: 100%;
-    border-radius: 10px;
-    min-height: 300px;
-    max-height: 500px;
-  }
-  
+  object-fit: cover;
+  min-width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+  min-height: 300px;
+  max-height: 500px;
+}
