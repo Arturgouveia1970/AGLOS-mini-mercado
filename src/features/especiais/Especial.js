@@ -1,29 +1,39 @@
 import React from 'react';
 import NavBar from '../common/NavBar';
 import Footer from '../common/Footer';
+import fotolonge from '../../assets/images/foto-longe.jpg';
+import fotofora from '../../assets/images/foto-fora.jpg';
+import styles from './Especial.module.css';
+import foto1 from '../../assets/images/gloria.jpg';
+import foto2 from '../../assets/images/sagiko.jpg';
+import foto3 from '../../assets/images/salfino.jpg';
+import foto4 from '../../assets/images/lulu.jpg';
+import foto5 from '../../assets/images/donabia.jpg';
+import foto6 from '../../assets/images/yolo.jpg';
 
 const Especial = () => (
   <>
     <NavBar />
-    <h2 style={{ color: 'green' }}>
-      Aqui apresentaremos as nossas promoções.
-    </h2>
-    <p>
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-      quae ab illo inventore veritatis et quasi architecto beatae vitae
-      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-      sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-      dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
-      quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-      adipisci velit, sed quia non numquam eius modi tempora incidunt
-      ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim
-      ad minima veniam, quis nostrum exercitationem ullam corporis
-      suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-      Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-      esse quam nihil molestiae consequatur, vel illum qui dolorem
-      eum fugiat quo voluptas nulla pariatur?
-    </p>
+    <div className={`${styles.specialCtn}`}>
+      <div className={`${styles.header} img-fluid`}>
+        <img src={fotolonge} alt="..." className={`${styles.images1} img-fluid float-start`} />
+        <img src={fotofora} alt="..." className={`${styles.images2} img-fluid float-end`} />
+      </div>
+      <div className={`${styles.main} `}>
+        <div className={`${styles.toprow} justify-content-center`}>
+          <img src={foto1} alt="..." className={`${styles.images3}`} />
+          <img src={foto2} alt="..." className={`${styles.images4}`} />
+        </div>
+        <div className={`${styles.secondrow} justify-content-center`}>
+          <img src={foto3} alt="..." className={`${styles.images5}`} />
+          <img src={foto4} alt="..." className={`${styles.images6}`} />
+        </div>
+        <div className={`${styles.thirdrow} justify-content-center`}>
+          <img src={foto5} alt="..." className={`${styles.images7}`} />
+          <img src={foto6} alt="..." className={`${styles.images8}`} />
+        </div>
+      </div>
+    </div>
     <Footer />
   </>
 );
