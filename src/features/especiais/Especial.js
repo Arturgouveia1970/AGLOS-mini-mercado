@@ -1,11 +1,14 @@
 import React from 'react';
-import MarketCarousel from './Carousel';
-import styles from './MarketContainer.module.css';
+import NavBar from '../common/NavBar';
+import Footer from '../common/Footer';
 
-const PromoContainer = () => (
+const Especial = () => (
   <>
-    <MarketCarousel />
-    <p className={`${styles.texto}`}>
+    <NavBar />
+    <h2 style={{ color: 'green' }}>
+      Aqui apresentaremos as nossas promoções.
+    </h2>
+    <p>
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem
       accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
       quae ab illo inventore veritatis et quasi architecto beatae vitae
@@ -21,6 +24,8 @@ const PromoContainer = () => (
       esse quam nihil molestiae consequatur, vel illum qui dolorem
       eum fugiat quo voluptas nulla pariatur?
     </p>
+    <Footer />
   </>
 );
-export default PromoContainer;
+
+export default Especial;

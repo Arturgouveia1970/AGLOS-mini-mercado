@@ -4,6 +4,7 @@ import MarketContainer from '../features/MarketContainer';
 import Sobre from '../features/Sobre';
 import Product from '../features/Product';
 import Local from '../features/Local';
+import Especial from '../features/especiais/Especial';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route exact path="/sobre" element={<Sobre />} />
           <Route exact path="/produtos" element={<Product />} />
           <Route exact path="/local" element={<Local />} />
+          <Route exact path="/especiais" element={<Especial />} />
         </Routes>
       </>
     ));
