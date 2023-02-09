@@ -1,10 +1,10 @@
 import React from 'react';
 import { MDBCarousel, MDBCarouselItem } from 'mdb-react-ui-kit';
-import foto2 from '../assets/images/foto-2.jpg';
-import foto1 from '../assets/images/foto-1.jpg';
-import foto3 from '../assets/images/foto-3.jpg';
+import foto2 from '../assets/images/higiene.jpg';
+import foto1 from '../assets/images/cereais.jpg';
+import foto3 from '../assets/images/vinhos.jpg';
 import foto4 from '../assets/images/foto-4.jpg';
-import foto6 from '../assets/images/foto-6.jpg';
+import foto6 from '../assets/images/massas.jpg';
 import styles from './ProductCarousel.module.css';
 
 export default function ProductCarousel() {

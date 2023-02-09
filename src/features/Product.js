@@ -17,7 +17,7 @@ const Product = () => (
         <h2>Frutos e Vegetais</h2>
         <p>
           Especializamo-nos em frutas sasonais de fazendas locais.
-          Todos os produtos são frescos e cuidadosamente escolhodos.
+          Todos os produtos são frescos e cuidadosamente escolhidos.
         </p>
       </div>
       <div className={`${styles.padariaText}`}>
@@ -27,7 +27,7 @@ const Product = () => (
       <div className={`${styles.especiaisText}`}>
         <h2>Higiéne</h2>
         <p>
-          Temos uma variedade estabelecidos no mercado Angolano. Todos os produtos
+          Temos uma variedade de produtos estabelecidos no mercado mundial. Todos os produtos
           higiéne pessoal e de casa num só lugar.
         </p>
       </div>
