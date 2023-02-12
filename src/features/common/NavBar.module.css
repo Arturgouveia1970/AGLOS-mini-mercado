@@ -9,3 +9,7 @@
   display: flex;
   max-width: 100%;
 }
+
+.navlinks {
+  font-family: Roboto;
+}

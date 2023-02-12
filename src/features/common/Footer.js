@@ -11,10 +11,10 @@ const Footer = () => (
     <footer className={`${styles.footer} text-center text-lg-start mt-auto`}>
       <div className="container d-flex justify-content-center">
         <button type="button" className="btn btn-lg btn-floating mx-2">
-          <img src={facebook} alt="facebook-icon" className="facebook" />
+          <a href="https://www.facebook.com/profile.php?id=100089306869306"><img src={facebook} alt="facebook-icon" className="facebook" /></a>
         </button>
         <button type="button" className="btn btn-lg btn-floating mx-2">
-          <a href="https://graph.instagram.com/v12.0/agls_mini_mercado"><img src={instagram} alt="instagram-icon" className="instagram" /></a>
+          <a href="https://instagram.com/agls_mini_mercado?igshid=YmMyMTA2M2Y="><img src={instagram} alt="instagram-icon" className="instagram" /></a>
         </button>
         <button type="button" className="btn btn-lg btn-floating mx-2">
           <img src={twitter} alt="twitter-icon" className="twitter" />

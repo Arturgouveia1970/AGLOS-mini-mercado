@@ -14,23 +14,23 @@ import foto6 from '../../assets/images/yolo.jpg';
 const Especial = () => (
   <>
     <NavBar />
-    <div className={`${styles.specialCtn}`}>
+    <div className={`${styles.specialCtn} container-fluid max-vh-100`}>
       <div className={`${styles.header} img-fluid`}>
-        <img src={fotolonge} alt="..." className={`${styles.images1} img-fluid float-start`} />
-        <img src={fotofora} alt="..." className={`${styles.images2} img-fluid float-end`} />
+        <img src={fotolonge} alt="..." className={`${styles.image1} img-fluid float-start`} />
+        <img src={fotofora} alt="..." className={`${styles.image2} img-fluid float-end`} />
       </div>
       <div className={`${styles.main} `}>
-        <div className={`${styles.toprow} justify-content-center`}>
-          <img src={foto1} alt="..." className={`${styles.images3}`} />
-          <img src={foto2} alt="..." className={`${styles.images4}`} />
+        <div className={`${styles.toprow} img-fluid`}>
+          <img src={foto1} alt="..." className={`${styles.image3}`} />
+          <img src={foto2} alt="..." className={`${styles.image4}`} />
         </div>
-        <div className={`${styles.secondrow} justify-content-center`}>
-          <img src={foto3} alt="..." className={`${styles.images5}`} />
-          <img src={foto4} alt="..." className={`${styles.images6}`} />
+        <div className={`${styles.secondrow} img-fluid`}>
+          <img src={foto3} alt="..." className={`${styles.image5}`} />
+          <img src={foto4} alt="..." className={`${styles.image6}`} />
         </div>
-        <div className={`${styles.thirdrow} justify-content-center`}>
-          <img src={foto5} alt="..." className={`${styles.images7}`} />
-          <img src={foto6} alt="..." className={`${styles.images8}`} />
+        <div className={`${styles.thirdrow} img-fluid`}>
+          <img src={foto5} alt="..." className={`${styles.image7}`} />
+          <img src={foto6} alt="..." className={`${styles.image8}`} />
         </div>
       </div>
     </div>
