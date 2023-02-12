@@ -6,12 +6,14 @@ import styles from './NavBar.module.css';
 const NavBar = () => (
   <nav className={`${styles.header} navbar navbar-expand-lg d-flex flex-column`}>
     <div className="container-fluid">
-      <div className={`${styles.logo} navbar-brand`}><img src={logo} alt="logo" className={`${styles.logo}`} /></div>
-      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon" />
-      </button>
+      <div className={`${styles.logo} navbar-brand`}>
+        <button className="navbar-toggler position-absolute top-1 left-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon" />
+        </button>
+        <img src={logo} alt="logo" className={`${styles.logo}`} />
+      </div>
       <div className="collapse navbar-collapse" id="navbarText">
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul className={`${styles.navlinks} navbar-nav me-auto mb-2 mb-lg-0`}>
           <li className="nav-item">
             <NavLink to="/" className="nav-link active" aria-current="page">Home</NavLink>
           </li>

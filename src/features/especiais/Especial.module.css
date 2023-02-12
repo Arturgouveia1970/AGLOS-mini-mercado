@@ -1,8 +1,66 @@
-.image {
+.specialCtn {
+  display: block;
   object-fit: cover;
   min-width: 100%;
   max-width: 100%;
-  border-radius: 10px;
-  min-height: 300px;
-  max-height: 500px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.toprow {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.secondrow {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.thirdrow {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid whitesmoke;
+}
+
+.image1 {
+  width: 50%;
+  border-right: 1px solid whitesmoke;
+}
+
+.image2 {
+  width: 50%;
+}
+
+.image3 {
+  width: 50%;
+  border-right: 2px solid whitesmoke;
+}
+
+.image4 {
+  width: 50%;
+}
+
+.image5 {
+  width: 50%;
+  border-right: 2px solid whitesmoke;
+}
+
+.image6 {
+  width: 50%;
+}
+
+.image7 {
+  width: 50%;
+  border-right: 2px solid whitesmoke;
+}
+
+.image8 {
+  width: 50%;
 }

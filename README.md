@@ -9,7 +9,7 @@
 
 ## Live version
 
-[comming soon]
+[Netlify](https://agls-mercadinho.netlify.app)
 
 ## Getting Started
 
