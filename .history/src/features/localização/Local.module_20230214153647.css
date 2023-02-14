@@ -1,7 +1,0 @@
-.map {
-  display: flex;
-  flex-direction: row;
-  object-fit: cover;
-  min-width: 100%;
-  max-width: 100%;
-}
