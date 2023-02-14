@@ -1,19 +1,20 @@
-// import React from 'react';
-// import NavBar from '../common/NavBar';
-// import Footer from '../common/Footer';
-// import Map from './Map';
+import React from 'react';
+import NavBar from '../common/NavBar';
+import Footer from '../common/Footer';
+import mapa2 from '../../assets/images/mapa2.png';
+import mapa3 from '../../assets/images/mapa3.png';
+import styles from './Local.module.css';
 
-// const location = {
-//   address: '1600 Amphitheatre Parkway, Mountain View, california.',
-//   lat: 37.42216,
-//   lng: -122.08427,
-// };
+const Local = () => (
+  <>
+    <NavBar />
+    <h2 className={`${styles.texto}`}>Estamos localizados na entrada do condomínio Atlantic City.</h2>
+    <div className={`${styles.map}`}>
+      <img src={mapa2} alt="..." className={`${styles.foto1}`} />
+      <img src={mapa3} alt="..." className={`${styles.foto2}`} />
+    </div>
+    <Footer />
+  </>
+);
 
-// const Local = () => (
-//   <div className="App">
-//     <NavBar />
-//     <Map location={location} zoomLevel={17} />
-//     <Footer />
-//   </div>
-// );
-// export default Local;
+export default Local;

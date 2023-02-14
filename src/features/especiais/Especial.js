@@ -19,6 +19,9 @@ const Especial = () => (
         <img src={fotolonge} alt="..." className={`${styles.image1} img-fluid float-start`} />
         <img src={fotofora} alt="..." className={`${styles.image2} img-fluid float-end`} />
       </div>
+      <div className={`${styles.texto}`}>
+        <h2>Especiais 2023</h2>
+      </div>
       <div className={`${styles.main} `}>
         <div className={`${styles.toprow} img-fluid`}>
           <img src={foto1} alt="..." className={`${styles.image3}`} />
