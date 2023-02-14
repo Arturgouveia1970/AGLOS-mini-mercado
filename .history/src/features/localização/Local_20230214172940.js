@@ -12,7 +12,7 @@ const Local = () => (
     <div className={`${styles.map}`}>
       <img src={mapa3} alt="..." className={`${styles.foto2}`} />
     </div>
-    <h2 className={`${styles.texto}`}>Situados na Entrada do condomínio.</h2>
+    <h2 className={`${styles.texto}`}>Situados na Entrada do condomínio Atlantic City</h2>
     <div className={`${styles.map}`}>
       <img src={mapa2} alt="..." className={`${styles.foto2}`} />
     </div>
