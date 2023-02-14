@@ -1,0 +1,15 @@
+.map {
+  display: flex;
+  flex-direction: column;
+  object-fit: cover;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.foto1 {
+  width: 100;
+}
+
+.foto2 {
+  
+}
