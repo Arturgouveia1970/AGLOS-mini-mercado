@@ -11,6 +11,15 @@
   margin-bottom: 20px;
 }
 
+.texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkolivegreen;
+  border-bottom: 1px solid white;
+  color: whitesmoke;
+}
+
 .toprow {
   display: flex;
   flex-direction: row;
