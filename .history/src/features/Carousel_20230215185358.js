@@ -9,21 +9,21 @@ export default function MarketCarousel() {
   return (
     <div className={`${styles.tamanho} container d-block img-thumbnail`}>
       <MDBCarousel showControls fade className="carousel-dark bg-success">
-        <MDBCarouselItem
+      <MDBCarouselItem
           className={`${styles.image} w-100 d-block img-fluid img-thumbnail`}
-          itemId={1}
-          src={fotolonge2}
+          itemId={2}
+          src={foto}
           alt="..."
         />
         <MDBCarouselItem
           className={`${styles.image} w-100 d-block img-fluid img-thumbnail`}
-          itemId={2}
+          itemId={1}
           src={fotofora}
           alt="..."
         />
         <MDBCarouselItem
           className={`${styles.image} w-100 d-block img-fluid img-thumbnail`}
-          itemId={3}
+          itemId={2}
           src={fotocrianca}
           alt="..."
         />

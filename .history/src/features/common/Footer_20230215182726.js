@@ -24,7 +24,7 @@ const Footer = () => (
         </button>
       </div>
       <div className="text-center text-white p-0 d-flex flex-column" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2023 Copyright:
+        © 2020 Copyright:
         <a className="text-black" href="https://artur-portfolio2.netlify.app/">Por: Artur Gouveia</a>
       </div>
     </footer>
