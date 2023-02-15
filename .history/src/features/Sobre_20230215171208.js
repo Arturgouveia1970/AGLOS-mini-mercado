@@ -21,9 +21,9 @@ const Sobre = () => (
         </h2>
         <p className={`${styles.text}`}>
           AGLS meu mercadinho é um negócio familiar que se dedica a providenciar a comunidade
-          local o acesso a uma variedade de alta qualidade de produtos nacionais e estrangeiros.
-          Venha visitar-nos e um membro da nossa equipa ajudár-lhe-a a levar novos sabores e
-          receitas para a sua mesa de jantar.
+          local o acesso a uma variedade de alta qualidade de produtos locais e estrangeiros.<br>
+          Venha visitar-nos e um menbro da nossa equipa ajudá-lo-a a levar novos sabores e
+          receitas para a sua mesa de jantar.</br>
         </p>
       </div>
     </div>

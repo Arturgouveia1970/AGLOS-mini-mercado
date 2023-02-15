@@ -8,11 +8,11 @@ import styles from './Local.module.css';
 const Local = () => (
   <>
     <NavBar />
-    <h2 className={`${styles.texto}`}>Estamos localizados na EN100 no condomínio Atlantic City a dois Kms sul do Museu da Escravatura. </h2>
+    <h2 className={`${styles.texto}`}>Estamos localizados na EN100 a dois Kms sul do Museu da Escravatura. </h2>
     <div className={`${styles.map}`}>
-      <img src={mapa3} alt="..." className={`${styles.foto2}`} />
+      <img src={mapa3} alt="..." className={`${styles.foto3}`} />
     </div>
-    <h2 className={`${styles.texto}`}>Situados na Entrada do condomínio.</h2>
+    <h2 className={`${styles.texto}`}>Situados na Entrada do condomínio Atlantic City</h2>
     <div className={`${styles.map}`}>
       <img src={mapa2} alt="..." className={`${styles.foto2}`} />
     </div>
