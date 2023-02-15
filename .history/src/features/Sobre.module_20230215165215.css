@@ -1,0 +1,25 @@
+.sobreCtn {
+  display: block;
+  object-fit: cover;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.image1 {
+  width: 50%;
+  border-right: 1px solid whitesmoke;
+}
+
+.image2 {
+  width: 50%;
+}
+
+.sobreTexto {
+  padding: 20px;
+}
