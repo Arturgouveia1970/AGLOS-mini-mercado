@@ -3,12 +3,13 @@
   object-fit: cover;
   min-width: 100%;
   max-width: 100%;
-  padding: 0;
+  background-color: rgb(236, 108, 34);
 }
 
 .header {
   display: flex;
   flex-direction: row;
+  margin-bottom: 20px;
 }
 
 .texto {
@@ -16,27 +17,27 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(236, 108, 34);
-  /* border-bottom: 1px solid white; */
+  border-bottom: 1px solid white;
   color: whitesmoke;
-  padding: 20px;
+  padding-bottom: 20px;
 }
 
 .toprow {
   display: flex;
   flex-direction: row;
-  margin-bottom: 1px;
+  margin-bottom: 2px solid whitesmoke;
 }
 
 .secondrow {
   display: flex;
   flex-direction: row;
-  margin-bottom: 1px;
+  margin-bottom: 5px;
 }
 
 .thirdrow {
   display: flex;
   flex-direction: row;
-  /* border-bottom: 1px solid whitesmoke; */
+  border-bottom: 2px solid whitesmoke;
 }
 
 .image1 {

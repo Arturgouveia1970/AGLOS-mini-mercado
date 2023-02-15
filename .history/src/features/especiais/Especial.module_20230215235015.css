@@ -3,12 +3,13 @@
   object-fit: cover;
   min-width: 100%;
   max-width: 100%;
-  padding: 0;
+  /* background-color: rgb(236, 108, 34); */
 }
 
 .header {
   display: flex;
   flex-direction: row;
+  margin-bottom: 20px;
 }
 
 .texto {
@@ -18,7 +19,7 @@
   background-color: rgb(236, 108, 34);
   /* border-bottom: 1px solid white; */
   color: whitesmoke;
-  padding: 20px;
+  padding-bottom: 20px;
 }
 
 .toprow {

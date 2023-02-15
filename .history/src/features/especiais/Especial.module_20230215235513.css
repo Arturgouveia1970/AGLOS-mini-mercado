@@ -1,9 +1,9 @@
 .specialCtn {
   display: block;
-  object-fit: cover;
+  /* object-fit: cover; */
   min-width: 100%;
   max-width: 100%;
-  padding: 0;
+  /* background-color: rgb(236, 108, 34); */
 }
 
 .header {

@@ -14,7 +14,7 @@ import foto6 from '../../assets/images/yolo.jpg';
 const Especial = () => (
   <>
     <NavBar />
-    <div className={`${styles.specialCtn} container-fluid max-vh-100`}>
+    {/* <div className={`${styles.specialCtn} container-fluid max-vh-100`}> */}
       <div className={`${styles.header} img-fluid`}>
         <img src={fotolonge} alt="..." className={`${styles.image1} img-fluid float-start`} />
         <img src={fotofora} alt="..." className={`${styles.image2} img-fluid float-end`} />
@@ -36,7 +36,7 @@ const Especial = () => (
           <img src={foto6} alt="..." className={`${styles.image8}`} />
         </div>
       </div>
-    </div>
+    {/* </div> */}
     <Footer />
   </>
 );
