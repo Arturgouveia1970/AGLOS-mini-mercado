@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-// import MarketContainer from '../features/MarketContainer';
+import MarketContainer from '../features/MarketContainer';
 import Sobre from '../features/Sobre';
 import Product from '../features/Product';
 import Local from '../features/localização/Local';

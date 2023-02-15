@@ -22,11 +22,10 @@ const Sobre = () => (
           Deixe a Nossa loja trazer-lhe os sabores e tradições do mundo para a sua mesa
         </h2>
         <p className={`${styles.text}`}>
-          AGLS meu mercadinho é um mini mercado que se dedica a facilitar á comunidade
-          local e arredores o acesso a uma variedade de alta qualidade e melhores preços de produtos
-          locais e importados.
-          Venha visitar-nos e um membro da nossa equipa ajudar-lhe-á a levar novos sabores e
-          receitas para a sua mesa.
+          AGLS meu mercadinho é um mini mercado que se dedica a providenciar a comunidade
+          local o acesso a uma variedade de alta qualidade de produtos nacionais e estrangeiros.
+          Venha visitar-nos e um membro da nossa equipa ajudár-lhe-a a levar novos sabores e
+          receitas para a sua mesa de jantar.
         </p>
       </div>
     </div>

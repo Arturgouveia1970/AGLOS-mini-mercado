@@ -14,11 +14,11 @@ const NavBar = () => (
       </div>
       <div className="collapse navbar-collapse" id="navbarText">
         <ul className={`${styles.navlinks} navbar-nav me-auto mb-2 mb-lg-0`}>
-          {/* <li className="nav-item">
-            <NavLink to="/" className="nav-link active" aria-current="page">Home</NavLink>
-          </li> */}
           <li className="nav-item">
-            <NavLink to="/" className="nav-link">Sobre</NavLink>
+            <NavLink to="/" className="nav-link active" aria-current="page">Home</NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/sobre" className="nav-link">Sobre</NavLink>
           </li>
           <li className="nav-item">
             <NavLink to="/produtos" className="nav-link">Produtos</NavLink>

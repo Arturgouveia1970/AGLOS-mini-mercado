@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-// import MarketContainer from '../features/MarketContainer';
+import MarketContainer from '../features/MarketContainer';
 import Sobre from '../features/Sobre';
 import Product from '../features/Product';
 import Local from '../features/localização/Local';
@@ -13,7 +13,7 @@ function App() {
     (
       <>
         <Routes>
-          <Route exact path="/" element={<Sobre />} />
+          <Route exact path="/" element={< />} />
           <Route exact path="/sobre" element={<Sobre />} />
           <Route exact path="/produtos" element={<Product />} />
           <Route exact path="/local" element={<Local />} />
