@@ -1,0 +1,10 @@
+.tamanho {
+  max-width: 100%;border-radius: 30px;
+}
+
+.image {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 300px;
+  max-height: 500px;
+}
