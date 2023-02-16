@@ -1,0 +1,76 @@
+.specialCtn {
+  display: block;
+  object-fit: cover;
+  min-width: 100%;
+  max-width: 100%;
+  background-color: rgb(236, 108, 34);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(236, 108, 34);
+  border-bottom: 1px solid white;
+  color: whitesmoke;
+}
+
+.toprow {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.secondrow {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.thirdrow {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid whitesmoke;
+}
+
+.image1 {
+  width: 50%;
+  border-right: 1px solid whitesmoke;
+}
+
+.image2 {
+  width: 50%;
+}
+
+.image3 {
+  width: 50%;
+  border-right: 2px solid whitesmoke;
+}
+
+.image4 {
+  width: 50%;
+}
+
+.image5 {
+  width: 50%;
+  border-right: 2px solid whitesmoke;
+}
+
+.image6 {
+  width: 50%;
+}
+
+.image7 {
+  width: 50%;
+  border-right: 2px solid whitesmoke;
+}
+
+.image8 {
+  width: 50%;
+}

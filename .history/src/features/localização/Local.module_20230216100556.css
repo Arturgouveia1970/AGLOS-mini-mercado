@@ -1,0 +1,46 @@
+.map1 {
+  display: flex;
+  flex-direction: column;
+  object-fit: cover;
+  min-width: 100%;
+  max-width: 100%;
+  border: 0px solid whitesmoke;
+}
+
+.map2 {
+  display: flex;
+  flex-direction: column;
+  /* object-fit: cover; */
+  width: 100%;
+  max-width: 100%;
+  border: 0px solid whitesmoke;
+}
+
+.foto1 {
+  width: 100%;
+  height: 50%;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+}
+
+.foto2 {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  border: 0px solid whitesmoke;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+}
+
+.texto {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color: whitesmoke;
+  border: 0px solid whitesmoke;
+  border-bottom: 0;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+}

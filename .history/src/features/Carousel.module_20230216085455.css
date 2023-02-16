@@ -1,0 +1,16 @@
+.tamanho {
+  max-width: 100%;
+
+  /* height: auto; */
+  /* background-size: cover; */
+  border-radius: 30px;
+}
+
+.image {
+  /* object-fit: cover; */
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 300px;
+  max-height: 500px;
+  border-radius: 0px;
+}

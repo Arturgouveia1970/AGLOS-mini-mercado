@@ -1,0 +1,22 @@
+.productsText {
+  display: flex;
+  flex-direction: colum;
+  background-color: green;
+  color: whitesmoke;
+}
+
+.carnesText {
+  margin-left: 40px;
+}
+
+.vegText {
+  margin-left: 40px;
+}
+
+.padariaText {
+  margin-left: 40px;
+}
+
+.especiaisText {
+  margin-left: 40px;
+}

@@ -1,0 +1,40 @@
+.map1 {
+  display: flex;
+  flex-direction: column;
+  object-fit: cover;
+  width: 100%;
+  border: 0px solid whitesmoke;
+}
+
+.map2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.foto1 {
+  width: 100%;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  margin-bottom: 1px;
+}
+
+.foto2 {
+  display: flex;
+  width: 100%;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  margin-bottom: 1px;
+}
+
+.texto {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color: whitesmoke;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  margin-bottom: 1px;
+}
