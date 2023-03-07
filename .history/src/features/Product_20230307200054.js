@@ -22,7 +22,7 @@ const Product = () => (
       </div>
       <div className={`${styles.padariaText}`}>
         <h2>Padaria</h2>
-        <p>Venha experimentar os nossos produtos frescos e entregues diariamente.</p>
+        <p>Venha experimentar os nossos produtos frescos e entregues diariamente</p>
       </div>
       <div className={`${styles.especiaisText}`}>
         <h2>Higiene</h2>
